@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5872101671208367086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5872101671208367075}
+  - component: {fileID: 5872101671208367072}
+  - component: {fileID: 5872101671208367073}
+  - component: {fileID: 5872101671208367074}
+  - component: {fileID: 2854664168498795670}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5872101671208367075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872101671208367086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.704735, y: -2.1864302, z: 4.335308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5872101671208367072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872101671208367086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4372950526d788458b5e48d08a15b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_initSpawnRate: 1
+  m_rateBetweenTwoRound: 0
+  m_player: {fileID: 0}
+  m_cropFields:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_fences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_animalSpawns: []
+  m_animalSpawn: {fileID: 0}
+  m_allAnimals:
+  - {fileID: 4461368306257635481, guid: 102a2f03a9728054bb49d724275ea3ae, type: 3}
+  m_damagePerSecond: 10
+  m_healthCropField: 100
+  m_logTuning: 1.2
+  m_cowSpeed: 3.5
+  m_maxAnimalCount: 10
+  m_wavePanel: {fileID: 0}
+  m_animalContainer: {fileID: 0}
+--- !u!114 &5872101671208367073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872101671208367086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8662405609f1951468ef72855c679dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5872101671208367074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872101671208367086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd68f027e715c44aa8d097000d4cccfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2854664168498795670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872101671208367086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88cc08f0791a63a4188301ef7d755e84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 0}
+  AmbienceSong: {fileID: 8300000, guid: babf913f757380947a2fbe062cc0b9f2, type: 3}
+  WaveSong: {fileID: 8300000, guid: 3a1dcca3d051a254283e18a55996412e, type: 3}
+  FarmSong:
+  - {fileID: 8300000, guid: 1b5ceabd93fe2964c9832024c2dd7926, type: 3}
+  - {fileID: 8300000, guid: c603df2d94a8e8040a8acaf2560453eb, type: 3}
+  - {fileID: 8300000, guid: 8436443cf070fff4ebd60f67edec4bb1, type: 3}
+  - {fileID: 8300000, guid: f0112f6c910a82a479a86e3284190168, type: 3}
+  - {fileID: 8300000, guid: bcb803d645eeff44ba562b772d30b5c2, type: 3}
+  CowsSong:
+  - {fileID: 8300000, guid: d0b281b9a1b46aa4f8b8a925a801a0dc, type: 3}
+  - {fileID: 8300000, guid: 4369fd278577471499789fa62f0053ce, type: 3}
+  - {fileID: 8300000, guid: 2bb1b842597b0a24e8e427f62513548d, type: 3}
+  ShotsSong:
+  - {fileID: 8300000, guid: e154ba063a5268d4090bbedbc75a4938, type: 3}
+  - {fileID: 8300000, guid: 187f8a8aafd36504a89012a580d15916, type: 3}
+  - {fileID: 8300000, guid: da741b58c01bfee45a6dc7ea9dc85a7b, type: 3}
+  - {fileID: 8300000, guid: c32020333a4f53f4f91d413b96c2d2b0, type: 3}
+  ExplSong:
+  - {fileID: 8300000, guid: e9ff2f2f25a57a640b682ba9c6b8765e, type: 3}
+  - {fileID: 8300000, guid: 9795b5747e8f6be43971b2d1d3736ae3, type: 3}
+  FenceDamageSong:
+  - {fileID: 8300000, guid: 3d8ac497b41c2fd4caa14bd446ad3242, type: 3}
+  - {fileID: 8300000, guid: edf84e9bd62f3f14499478760ad31e89, type: 3}
+  FenceDestroySong:
+  - {fileID: 8300000, guid: 22a1e5e2fa5ed324c81037cd05ba5a3d, type: 3}
+  FieldDamageSong:
+  - {fileID: 8300000, guid: 080019cad7b0cdb43b8cf42ea238ae97, type: 3}
+  - {fileID: 8300000, guid: 8e4424b53fb3b1549af61adef9a87457, type: 3}
+  FieldDestroySong:
+  - {fileID: 8300000, guid: c198551f92a43d14b81b1051188ed52e, type: 3}

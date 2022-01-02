@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8158841986502574840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8158841986502574839}
+  m_Layer: 0
+  m_Name: Button3D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8158841986502574839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158841986502574840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8158841987780473582}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8013732225192498340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8158841986502574839}
+    m_Modifications:
+    - target: {fileID: 2165238078371882569, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.19526166
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.2658505
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38554624
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165238078371882614, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+        type: 3}
+      propertyPath: m_Name
+      value: 3DButton
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 17ec0ba2bda5d5447a973203b2abfd36, type: 3}
+--- !u!4 &8158841987780473582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2165238078371882570, guid: 17ec0ba2bda5d5447a973203b2abfd36,
+    type: 3}
+  m_PrefabInstance: {fileID: 8013732225192498340}
+  m_PrefabAsset: {fileID: 0}
