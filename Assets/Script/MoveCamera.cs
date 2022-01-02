@@ -21,7 +21,7 @@ public class MoveCamera : MonoBehaviour
 
     void Update()
     {
-        if (buildPC)
+        if (buildPC || Application.isEditor)
         {
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = false;

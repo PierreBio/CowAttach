@@ -8,5 +8,5 @@ public class MenuManager : MonoBehaviour
    public void LoadScene(string _sceneName)
    {
         SceneManager.LoadScene(_sceneName, LoadSceneMode.Single);
-    }
+   }
 }
