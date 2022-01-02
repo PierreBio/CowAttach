@@ -18,12 +18,11 @@ public class WavePanel : MonoBehaviour
 
     public void Display(bool _display)
     {
-        //Debug.Log("TEST");
         if (_display) 
         { 
             ShowPanel(GameManager.Instance.PanelType);
             if (GameManager.Instance.PanelType == PanelType.WAVE) { 
-                m_waveNumber.text = "Vague " + GameManager.Instance.WaveCount;
+                m_waveNumber.text = "Wave " + GameManager.Instance.WaveCount;
             }
             foreach (Renderer rend in GetComponentsInChildren<Renderer>())
             {
