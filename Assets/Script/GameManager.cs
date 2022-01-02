@@ -128,6 +128,12 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(_scene);
     }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("SceneMenu");
+    }
+
     public void AddScore(int _score)
     {
         m_score += _score;
