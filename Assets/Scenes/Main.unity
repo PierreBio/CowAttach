@@ -60335,7 +60335,7 @@ PrefabInstance:
     - target: {fileID: 3909539618188298807, guid: 459ce86acddbded49ab301eca1941b6e,
         type: 3}
       propertyPath: buildPC
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3909539619229659512, guid: 459ce86acddbded49ab301eca1941b6e,
         type: 3}

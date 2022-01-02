@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveCamera : MonoBehaviour
 {
 
-    public bool buildPC = true;
+    public bool buildPC = false;
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
     public float sensitivityX = 15F;
