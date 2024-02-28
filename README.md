@@ -1,4 +1,4 @@
-# CowAttach
+# CowAttack
 Shooter game
 
 - Unity / C#
